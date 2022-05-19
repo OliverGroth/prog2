@@ -13,7 +13,7 @@ def main():
 def fib_py(n):
 	if n <= 1:
 		return n
-	else
+	else:
 		return(fib_py(n-1) + fib_py(n-2))
 
 if __name__ == '__main__':
