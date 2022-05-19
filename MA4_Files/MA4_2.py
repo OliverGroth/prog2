@@ -8,6 +8,7 @@ def main():
 	f.set(7)
 	print(f.get())
 	print(fib_py(f.get()))
+	print(f.fib())
 
 
 def fib_py(n):
